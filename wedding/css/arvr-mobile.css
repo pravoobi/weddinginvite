@@ -1,0 +1,86 @@
+@media only screen and (max-width: 500px) {
+.title .big-heading {
+    font-size: 4rem;
+}
+.title .small-heading {
+	width: 90vw;
+}
+.title p {
+	width: 90vw;
+}
+.container-left, .container-right {
+  flex-basis: 0%;
+}
+.container-mid {
+  flex-basis: 100%;
+  flex-direction: column;
+  margin-bottom: 600px;
+}
+.video-section {
+  margin: 4rem 2rem 2rem 2rem;
+}
+.video-content .close {
+	top:20px;
+}
+.virtual {
+	flex-direction: column;
+	margin: 6rem 0rem 2rem 2rem;
+}
+.vr-text {
+	margin-top: 2rem;
+}
+.augment {
+	margin: 6rem 0rem 2rem 2rem;
+	flex-direction: column-reverse;
+}
+.ar-text {
+	margin-top: 2rem;
+}
+.softwares {
+    margin: 9rem 2rem 2rem 2rem;
+}
+.applications {
+    margin: 9rem 2rem 2rem 2rem;
+}
+.screenshots {
+	margin: 3rem 0rem 4rem 0rem;
+}
+.logo {
+    flex-basis: 50%;
+}
+.item {
+    flex-basis: 100%;
+ }
+.big-heading {
+	font-family: 'HelveticaNeueLTStd-Md';
+	font-size: 2rem;
+	line-height: 2.5rem;
+
+}
+
+
+.footer-main {
+	flex-wrap: wrap;
+	/*margin: 0rem 2rem 0rem 2rem;*/
+	margin: 0rem 1rem 0rem 1rem;
+}
+.footer-main p {
+}
+.address {
+    margin: 2rem 0rem 0rem 0rem;
+    line-height: .5rem;
+}
+.address, .services, .links, .about {
+	flex-basis: 50%;
+}
+.footer-copy {
+}
+.footer-sub{
+	flex-direction: column;
+	margin:0rem 2rem 0rem 2rem;
+}
+#video-play {
+    height: 4rem;
+}
+
+}
